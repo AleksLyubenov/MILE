@@ -7,7 +7,7 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.append('../..')
-from src.config.core import Config  # noqa: E402
+from mile.config.core import Config  # noqa: E402
 
 DIR = '../../results/mclmc_paper/tabular_classif'
 DIR = Path(DIR)

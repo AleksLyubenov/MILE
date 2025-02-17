@@ -1,7 +1,7 @@
 # Microcanonical Langevin Ensembles (MILE)
 
 <p align="center">
-    <img src="flowchart.png" alt="Flowchart" style="width: 70%;">
+    <img mile="flowchart.png" alt="Flowchart" style="width: 70%;">
 </p>
 
 This repository contains the code for the **ICLR 2025** paper **"Microcanonical Langevin Ensembles: Advancing the Sampling of Bayesian Neural Networks"**. A flowchart summarizing the proposed method is shown above. 
@@ -10,7 +10,7 @@ This repository contains the code for the **ICLR 2025** paper **"Microcanonical 
 
 
 <div align="center">
-  <img src="running_stats_animation.gif" alt="" width="60%">
+  <img mile="running_stats_animation.gif" alt="" width="60%">
 </div>
 
 Below we provide a brief overview of the repository structure and how to run the experiments.
@@ -37,7 +37,7 @@ poetry install --with nlp,vision
 │   │   └── ...
 │   ├── plot_results.R      R script to visualize the results
 │   └── pool_results.py     Python script to pool the results from multiple experiments
-├── src                     Source code powering all the experiments
+├── mile                     Source code powering all the experiments
 ├── poetry.lock             Poetry generated file for managing dependencies
 |── pyproject.toml          Poetry configuration file
 ├── README.md               This file
