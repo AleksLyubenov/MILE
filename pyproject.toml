@@ -6,6 +6,10 @@ authors = []
 readme = "README.md"
 package-mode = true
 
+packages = [
+    { include = "mile" }
+]
+
 [tool.poetry.dependencies]
 python = ">=3.10"
 jax = "0.4.28"
